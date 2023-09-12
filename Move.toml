@@ -1,0 +1,12 @@
+[package]
+name = 'yield'
+version = '1.0.0'
+
+[addresses]
+amnis = "_"
+deployer = "_"
+yield = "_"
+
+[dependencies]
+AptosFramework = { local = "../../framework/aptos-framework" }
+amnis = { local = "../amnis" }
